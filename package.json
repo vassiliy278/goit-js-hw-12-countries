@@ -1,7 +1,7 @@
 {
-  "name": "homework_10",
+  "name": "homework_12",
   "version": "1.0.0",
-  "description": "homework_10_with_webpack",
+  "description": "homework_12_with_webpack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vassiliy278/goit-js-hw-10-food-service.git"
+    "url": "git+https://github.com/vassiliy278/goit-js-hw-12-countries.git"
   },
   "author": "VASSILIY_KOVAL",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vassiliy278/goit-js-hw-10-food-service/issues"
+    "url": "https://github.com/vassiliy278/goit-js-hw-12-countries/issues"
   },
-  "homepage": "https://github.com/vassiliy278/goit-js-hw-10-food-service#readme",
+  "homepage": "https://github.com/vassiliy278/goit-js-hw-12-countries#readme",
   "dependencies": {
     "handlebars": "^4.7.6",
     "handlebars-loader": "^1.7.1"
