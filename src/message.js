@@ -1,0 +1,1 @@
+export default 'w e b p a c k    is amazing'
