@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+  margin-top: 100px;
 	line-height: 1;
 }
 ol, ul {
@@ -70,6 +71,7 @@ input {
   justify-content: center;
   font-size: 40px;
   margin: 10px 0px;
+  text-align: center;
 }
 .wrapper {
   display: flex;
@@ -77,7 +79,7 @@ input {
 }
 .block_left, .block_right {
   display: flex;
-  flex-basis: 48%;
+  flex-basis: 45%;
 }
 .block_left {
   flex-wrap: wrap;
@@ -88,7 +90,7 @@ input {
 .capital, .population, .languages {
   display: flex;
   justify-content: center;
-  flex-basis: 100%;
+  flex-basis: 90%;
   /* font-weight: bold; */
 }
 .pre_list_item {
