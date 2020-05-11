@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const Handlebars = require("handlebars");
 const template = Handlebars.compile("Name: {{name}}");
-console.log(template({ name: "Nils" }));
+const debounce = require('lodash.debounce');
 
 console.log(`dirname: ${__dirname}`)
 
@@ -43,7 +43,7 @@ module.exports = {
         })
     ],
     devServer: {
-        port: 7777
+        port: 1212
     },
     devtool: 'cheap-eval-source-map'
     }
