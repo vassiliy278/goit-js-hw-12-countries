@@ -91,7 +91,10 @@ input {
   flex-basis: 100%;
   /* font-weight: bold; */
 }
-
+.pre_list_item {
+  padding: 5px 0px;
+  /* color: aquamarine; */
+}
 .languages_list {
   display: flex;
   flex-wrap: wrap;
